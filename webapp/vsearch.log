@@ -1,0 +1,2 @@
+ImmutableMultiDict([('phrase', 'prueba uno'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0|{'u', 'e', 'o', 'a'}
+ImmutableMultiDict([('phrase', 'borrachera'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0|{'e', 'o', 'a'}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<table style='border:1px solid #ddd;'>
+  <tr>
+    {% for row_title in the_row_titles %}
+      <th style='background-color:#daa; text-align:center;'>{{ row_title }}</th>
+    {% endfor %}
+  </tr>
+  {% for log_row in the_data %}
+    <tr>
+      {% for item in log_row %}
+        <td style='border-top:1px solid #ddd;'>{{item}}</td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}
